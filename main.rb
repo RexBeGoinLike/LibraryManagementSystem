@@ -106,7 +106,7 @@ while true do
   when "6"
     print "Enter book ID to update: "
     id = gets.chomp
-    print "Which field do you want to update? (title, author, availability): "
+    print "Which field do you want to update? (id, title, author, availability): "
     field = gets.chomp.downcase
     print "Enter the new value: "
     value = gets.chomp

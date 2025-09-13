@@ -126,7 +126,7 @@ class BookManager
     book = find_book(book_id)
 
     case field_name.downcase
-    when book_id
+    when "id"
       book.book_id = updated_value
     when "title"
       book.title = updated_value
