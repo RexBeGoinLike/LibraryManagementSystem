@@ -32,7 +32,13 @@ class BookManager
     end
   end
 
+  #returns the @@book_list variable
+  def self.get_list
+    @@book_list
+  end
+
   # @private method used to update the book_list array based on the csv_file attribute.
+  private
   def self.update_temp_store
       book_list = []
 
@@ -44,6 +50,7 @@ class BookManager
   end
 
   # @private method used to save the contents of the book_list array to the csv_file attribute.
+  private
   def self.save_to_csv
     CSV.open(@@csv_file, "wb") do |csv|
 
