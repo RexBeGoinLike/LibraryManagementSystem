@@ -11,6 +11,9 @@
     </content>
     <orderEntry type="jdk" jdkName="ruby-3.4.5-p51" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="csv (v3.3.2, ruby-3.4.5-p51) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="csv (v3.3.5, ruby-3.4.5-p51) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="erb (v4.0.4, ruby-3.4.5-p51) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="psych (v5.2.2, ruby-3.4.5-p51) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdoc (v6.14.2, ruby-3.4.5-p51) [gem]" level="application" />
   </component>
 </module>
