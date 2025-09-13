@@ -57,7 +57,7 @@ class BookManager
       book.availability = "unavailable"
       save_to_csv
     else
-      raise BookIsUnavailable.new("Book is not currently being borrowed!")
+      raise BookIsUnavailable.new("Book is currently being borrowed!")
     end
   end
 
